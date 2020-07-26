@@ -1,0 +1,18 @@
+{
+  "pages": [ 
+    "pages/category/category",
+    "pages/pot/pot",
+    "pages/artist/artist",
+
+   
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "壶中天",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
