@@ -1,0 +1,88 @@
+<!-- <header>紫砂商城</header> -->
+<view class="banner">
+	<swiper autoplay indicator-dots circular indicator-color="white" indicator-active-color="red" interval="4000">
+		<swiper-item>
+			<image src='../../images/pot/banner3.webp'></image>
+		</swiper-item>
+		<swiper-item>
+			<image src='../../images/pot/banner6.jpg'></image>
+		</swiper-item>
+		<swiper-item>
+			<image src='../../images/pot/banner7.jpg'></image>
+		</swiper-item>
+		<swiper-item>
+			<image src='../../images/pot/banner8.jpg'></image>
+		</swiper-item>
+	</swiper>
+</view>
+<view class="sort_container">
+	<view class="sort_tab active"><text>最新</text></view>
+	<view class="sort_tab"><text>人气</text></view>
+</view>
+<view class="goods_container">
+	<view class="goods_wrap">
+		<view class="goods_list">
+			<view class="goods_item">
+				<navigator url="/goodsinfo?goodsid=2454" open-type="navigate" class="goods_avatar_container">
+					<image src='http://shop.zishajyw.com/uploads/20200519/9a746ea8bc40c8cdd9211eaa65395c37.jpg' class="goods_avatar"></image>
+				</navigator>
+				<view class="goods_main">
+					<view class="goods_header">
+						<text class="goods_name">六方仿古</text>
+						<button type="warn" class="btn_qry">询价</button>
+					</view>
+					<view class="goods_info">
+						<text>作者:蒋建军</text> <text>编号:22B763</text>
+						<text>泥料:大红袍</text> <text>容量:250cc-300cc</text>
+					</view>
+				</view>
+			</view>
+			<view class="goods_item">
+				<navigator url="/goodsinfo?goodsid=2454" open-type="navigate" class="goods_avatar_container">
+					<image src='http://shop.zishajyw.com/uploads/20200519/9a746ea8bc40c8cdd9211eaa65395c37.jpg' class="goods_avatar"></image>
+				</navigator>
+				<view class="goods_main">
+					<view class="goods_header">
+						<text class="goods_name">六方仿古</text>
+						<button class="btn_qry">询价</button>
+					</view>
+					<view class="goods_info">
+						<text>作者:蒋建军</text> <text>编号:22B763</text>
+						<text>泥料:大红袍</text> <text>容量:250cc-300cc</text>
+					</view>
+				</view>
+			</view>
+			<view class="goods_item">
+				<navigator url="/goodsinfo?goodsid=2454" open-type="navigate" class="goods_avatar_container">
+					<image src='http://shop.zishajyw.com/uploads/20200519/9a746ea8bc40c8cdd9211eaa65395c37.jpg' class="goods_avatar"></image>
+				</navigator>
+				<view class="goods_main">
+					<view class="goods_header">
+						<text class="goods_name">六方仿古</text>
+						<button class="btn_qry">询价</button>
+					</view>
+					<view class="goods_info">
+						<text>作者:蒋建军</text> <text>编号:22B763</text>
+						<text>泥料:大红袍</text> <text>容量:250cc-300cc</text>
+					</view>
+				</view>
+			</view>
+			<view class="goods_item">
+				<navigator url="/goodsinfo?goodsid=2454" open-type="navigate" class="goods_avatar_container">
+					<image src='http://shop.zishajyw.com/uploads/20200519/9a746ea8bc40c8cdd9211eaa65395c37.jpg' class="goods_avatar"></image>
+				</navigator>
+				<view class="goods_main">
+					<view class="goods_header">
+						<text class="goods_name">六方仿古</text>
+						<button class="btn_qry">询价</button>
+					</view>
+					<view class="goods_info">
+						<text>作者:蒋建军</text> <text>编号:22B763</text>
+						<text>泥料:大红袍</text> <text>容量:250cc-300cc</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

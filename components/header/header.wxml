@@ -1,0 +1,10 @@
+<view class="van-nav-bar" style="z-index:1;">
+	<view class="van-nav-bar__left" bindtap="navigateBack" >
+		<mp-icon icon="back" color="white" size="{{10}}"></mp-icon>
+		<text class="van-nav-bar__text">返回</text>
+	</view>
+	<view class="van-nav-bar__title van-ellipsis"><slot></slot></view>
+	<view class="van-nav-bar__right" onclick="window.location.href='/'">
+		<text class="van-nav-bar__text">首页</text>
+	</view>
+</view>
